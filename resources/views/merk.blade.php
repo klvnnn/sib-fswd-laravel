@@ -1,0 +1,1 @@
+Komputer, Mouse, Deskmate

@@ -44,5 +44,11 @@ Route::get('/conflict/{nama}', function($namaItem){
 Route::get('/product', [ItemController::class, 'item']);
 
 //Route to Task 19
-Route::get('/', [UserController::class, 'users']);
+Route::get('/users', [UserController::class, 'users']);
+
+//Route to Task 23
+Route::get('/', [UserController::class, 'landing']);
+Route::get('/dashboard', [UserController::class, 'dashboard']);
+
+
 

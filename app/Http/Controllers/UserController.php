@@ -9,4 +9,10 @@ class UserController extends Controller
     public function users(){
         return view('users');
     }
+    public function landing(){
+        return view('landing');
+    }
+    public function dashboard(){
+        return view('dashboard');
+    }
 }

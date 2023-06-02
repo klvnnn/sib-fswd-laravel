@@ -2,15 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Dashboard</title>
     <link href="assets/css/dashboard.css" rel="stylesheet" />
-    <link rel="icon" href="assets/img/icon.png" type="image/x-icon">
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
 </head>
 <body>
     <div class="page-dashboard">
@@ -18,43 +15,47 @@
         <!-- sidebar -->
         <div class="border-right" id="sidebar-wrapper">
         <div class="sidebar-heading text-center">
-            <img src="assets/img/logo.svg" class="my-4" alt=""/>
+            <img src="assets/img/logo.png" class="my-4" alt=""/>
         </div>
-        <div class="list-group list-group-flush">
-            <a
-                href="dashboard"
-                class="list-group-item list-group-item-action active"
-            >
-                Dashboard
-            </a>
-            <a
-                href=""
-                class="list-group-item list-group-item-action"
-            >
-                Category Products
-            </a>
-            <a
-                href=""
-                class="list-group-item list-group-item-action"
-            >
-                Products List
-            </a>
-            <a
-                href=""
-                class="list-group-item list-group-item-action"
-            >
-                User Group
-            </a>
-            <a
-                href=""
-                class="list-group-item list-group-item-action"
-            >
-                User List
-            </a>
-            <a href="/" class="list-group-item list-group-item-action">
-                Logout
-            </a>
-        </div>
+            <div class="list-group list-group-flush">
+                <a
+                    href="dashboard"
+                    class="list-group-item list-group-item-action active"
+                >
+                    Dashboard
+                </a>
+                <a5
+                    href="#"
+                    class="list-group-item list-group-item-action"
+                >
+                    Category Products
+                </a5>
+                <a
+                    href="#"
+                    class="list-group-item list-group-item-action"
+                >
+                    Products List
+                </a>
+                <a
+                    href="#"
+                    class="list-group-item list-group-item-action"
+                >
+                    User Group
+                </a>
+                <a
+                    href="#"
+                    class="list-group-item list-group-item-action"
+                >
+                    User List
+                </a>
+                <div class="list-group-item list-group-item-action fixed-bottom">
+                    <a href="/">
+                        <button class="rounded" style="background:#ff4500; color:white; text-style:none; border:none; width:200px;"> 
+                            Logout
+                        </button>
+                    </a>
+                </div>
+            </div>
         </div>
         <div id="page-content-wrapper">
         <nav
@@ -78,46 +79,46 @@
                     <!-- Dekstop Menu -->
                     <ul class="navbar-nav d-none d-lg-flex ml-auto">
                 <li class="nav-item dropdown">
-            <a
-                href="#"
-                class="nav-link"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-            >
-            <img
-                src="assets/img/angga.png"
-                alt=""
-                class="rounded-circle mr-2 profile-picture"/>
-            Hi, Kelvin
-        </a>
-        {{-- <div class="dropdown-menu">
-            <a href="dashboard.html" class="dropdown-item"
-                >Dashboard</a
-            >
-            <a href="dashboard-account.html" class="dropdown-item"
-                >Settings</a
-            >
-            <div class="dropdown-divider"></div>
-            <a href="/" class="dropdown-item">Logout</a>
-        </div> --}}
-            </li>
-            <div class="nav-item">
-        <a href="#" class="nav-link d-inline-block mt-2">
-            <img src="assets/img/shopping 1.svg" alt="" />
-            <div class="card-badge">3</div>
-        </a>
-            </div>
+                    <a
+                        href="#"
+                        class="nav-link"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                    >
+                    <img
+                        src="assets/img/angga.png"
+                        alt=""
+                        class="rounded-circle mr-2 profile-picture"/>
+                    Hi, Kelvin
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="dashboard.html" class="dropdown-item"
+                            >Dashboard</a
+                        >
+                        <a href="dashboard-account.html" class="dropdown-item"
+                            >Settings</a
+                        >
+                        <div class="dropdown-divider"></div>
+                        <a href="/" class="dropdown-item">Logout</a>
+                    </div>
+                </li>
+                    <div class="nav-item">
+                        <a href="#" class="nav-link d-inline-block mt-2">
+                            <img src="assets/img/shopping 1.svg" alt="" />
+                            <div class="card-badge" style="background-color: #ff4500">3</div>
+                        </a>
+                    </div>
                     </ul>
-                    <!-- Mobile Menu -->
+                    {{-- <!-- Mobile Menu -->
                     <ul class="navbar-nav d-block d-lg-none">
-            <li class="nav-item">
-        <a href="#" class="nav-link"> Hi, Angga </a>
-            </li>
-            <li class="nav-item">
-        <a href="#" class="nav-link d-inline-block"> Cart </a>
-            </li>
-                    </ul>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> Hi, Angga </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-inline-block"> Cart </a>
+                        </li>
+                    </ul> --}}
                 </div>
             </div>
         </nav>

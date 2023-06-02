@@ -380,7 +380,6 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem;
 }
-
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -5879,6 +5878,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   text-align: inherit;
 }
 
+
 .list-group-item-action:hover, .list-group-item-action:focus {
   z-index: 1;
   color: #495057;
@@ -10862,7 +10862,6 @@ footer p {
   border-radius: 50%;
   font-size: 10px;
   text-align: center;
-  background: #29a867;
   color: #fff;
   margin-left: -10px;
 }
@@ -11452,4 +11451,3 @@ footer p {
 .save2 {
   margin-top: 370px;
 }
-/*# sourceMappingURL=main.css.map */

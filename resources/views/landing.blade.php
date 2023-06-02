@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" style="border-radius: 12px">
                             <div class="carousel-item active" data-bs-interval="10000">
                                 <img src="assets/img/store.jpg" class="img-fluid" alt="" data-aos="zoom-out"
                                     data-aos-delay="300">
@@ -72,6 +72,10 @@
                             <div class="carousel-item" data-bs-interval="2000">
                                 <img src="assets/img/slider1.jpeg" class="img-fluid" alt="" data-aos="zoom-out"
                                     data-aos-delay="300">
+                                </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/slider4.jpeg" class="img-fluid" alt=""
+                                    data-aos="zoom-out" data-aos-delay="300">
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/img/slider2.jpeg" class="img-fluid" alt="" data-aos="zoom-out"

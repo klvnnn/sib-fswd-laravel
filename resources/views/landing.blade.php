@@ -7,8 +7,8 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- Favicons -->
-    <link href="assets/img/logo.png" rel="icon" type="image/x-icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="{{ asset('assets/img/logo.png') }}" rel="icon" type="image/x-icon">
+    <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +16,12 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -66,33 +66,33 @@
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner" style="border-radius: 12px">
                             <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="assets/img/store.jpg" class="img-fluid" alt="" data-aos="zoom-out"
+                                <img src="{{ asset('assets/img/store.jpg') }}" class="img-fluid" alt="" data-aos="zoom-out"
                                     data-aos-delay="300">
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
-                                <img src="assets/img/slider1.jpeg" class="img-fluid" alt="" data-aos="zoom-out"
+                                <img src="{{ asset('assets/img/slider1.jpeg') }}" class="img-fluid" alt="" data-aos="zoom-out"
                                     data-aos-delay="300">
                                 </div>
                             <div class="carousel-item">
-                                <img src="assets/img/slider4.jpeg" class="img-fluid" alt=""
+                                <img src="{{ asset('assets/img/slider4.jpeg') }}" class="img-fluid" alt=""
                                     data-aos="zoom-out" data-aos-delay="300">
                             </div>
                             <div class="carousel-item">
-                                <img src="assets/img/slider2.jpeg" class="img-fluid" alt="" data-aos="zoom-out"
+                                <img src="{{ asset('assets/img/slider2.jpeg') }}" class="img-fluid" alt="" data-aos="zoom-out"
                                     data-aos-delay="300">
                             </div>
                             <div class="carousel-item">
-                                <img src="assets/img/slider3.jpeg" class="img-fluid" alt=""
+                                <img src="{{ asset('assets/img/slider3.jpeg') }}" class="img-fluid" alt=""
                                     data-aos="zoom-out" data-aos-delay="300">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                             data-bs-slide="prev" data-aos="zoom-out" data-aos-delay="300">
-                            <img src="assets/img/left.png" alt="">
+                            <img src="{{ asset('assets/img/left.png') }}" alt="">
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
                             data-bs-slide="next"  data-aos="zoom-out" data-aos-delay="300">
-                            <img src="assets/img/right.png" alt="">
+                            <img src="{{ asset('assets/img/right.png') }}" alt="">
                         </button>
                     </div>
                 </div>
@@ -120,13 +120,13 @@
     </a>
     <div id="preloader"></div>
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
+    <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+    <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 </html>

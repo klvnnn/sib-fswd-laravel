@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Arkatama Store</title>
+    <title>@yield('judul')</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- Favicons -->
@@ -23,7 +23,6 @@
     <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
 </head>
-
 <body>
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top d-flex align-items-center">
@@ -33,7 +32,7 @@
             </a>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="#hero">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <div class="dropdown">
                         <a href="#" class="ms-4">Product</a>
                         <ul class="dropdown-menu">
@@ -54,51 +53,7 @@
         </div>
     </header>
     <!-- ======= Homepage Section ======= -->
-    <section id="hero" class="hero d-flex align-items-center section-bg">
-        <div class="container">
-            <div class="row justify-content-between gy-5">
-                <div
-                    class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-                    <h2 data-aos="fade-up">Welcome To<br>Arkatama Store</h2>
-                    <p data-aos="fade-up" data-aos-delay="100">Apa yang kamu cari ada disini!!!</p>
-                </div>
-                <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner" style="border-radius: 12px">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="{{ asset('assets/img/store.jpg') }}" class="img-fluid" alt="" data-aos="zoom-out"
-                                    data-aos-delay="300">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="{{ asset('assets/img/slider1.jpeg') }}" class="img-fluid" alt="" data-aos="zoom-out"
-                                    data-aos-delay="300">
-                                </div>
-                            <div class="carousel-item">
-                                <img src="{{ asset('assets/img/slider4.jpeg') }}" class="img-fluid" alt=""
-                                    data-aos="zoom-out" data-aos-delay="300">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="{{ asset('assets/img/slider2.jpeg') }}" class="img-fluid" alt="" data-aos="zoom-out"
-                                    data-aos-delay="300">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="{{ asset('assets/img/slider3.jpeg') }}" class="img-fluid" alt=""
-                                    data-aos="zoom-out" data-aos-delay="300">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                            data-bs-slide="prev" data-aos="zoom-out" data-aos-delay="300">
-                            <img src="{{ asset('assets/img/left.png') }}" alt="">
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                            data-bs-slide="next"  data-aos="zoom-out" data-aos-delay="300">
-                            <img src="{{ asset('assets/img/right.png') }}" alt="">
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @yield('isi')
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
         <div class="container">

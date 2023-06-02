@@ -34,6 +34,20 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a href="#hero">Home</a></li>
+                    <div class="dropdown">
+                        <a href="#" class="ms-4">Product</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Product Category</a></li>
+                            <li><a href="#" class="dropdown-item">Product List</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" class="ms-4">Users</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Users Group</a></li>
+                            <li><a href="#" class="dropdown-item">Users List</a></li>
+                        </ul>
+                    </div>
                     <li><a href="dashboard">Dashboard</a></li>
                 </ul>
             </nav>
@@ -97,8 +111,9 @@
         </div>
     </footer>
     <!-- ===== Footer ===== -->
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
     <div id="preloader"></div>
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -110,5 +125,4 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 </body>
-
 </html>

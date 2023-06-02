@@ -18,35 +18,32 @@
             <img src="assets/img/logo.png" class="my-4" alt=""/>
         </div>
             <div class="list-group list-group-flush">
-                <a
-                    href="dashboard"
-                    class="list-group-item list-group-item-action active"
-                >
+                <a href="dashboard" class="list-group-item list-group-item-action active">
                     Dashboard
                 </a>
-                <a5
-                    href="#"
-                    class="list-group-item list-group-item-action"
-                >
-                    Category Products
-                </a5>
                 <a
                     href="#"
                     class="list-group-item list-group-item-action"
                 >
-                    Products List
+                    My Products
                 </a>
                 <a
                     href="#"
                     class="list-group-item list-group-item-action"
                 >
-                    User Group
+                    Transaction Details
                 </a>
                 <a
                     href="#"
                     class="list-group-item list-group-item-action"
                 >
-                    User List
+                    Accounts
+                </a>
+                <a
+                    href="#"
+                    class="list-group-item list-group-item-action"
+                >
+                    Settings
                 </a>
                 <div class="list-group-item list-group-item-action fixed-bottom">
                     <a href="/">

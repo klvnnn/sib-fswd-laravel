@@ -9,7 +9,6 @@
     <link href="{{ asset('assets/css/dashboard.css') }}" rel="stylesheet" />
     <link rel="icon" href="{{ asset('assets/img/logo.png') }}" type="image/x-icon">
 </head>
-
 <body>
     <div class="page-dashboard">
         <div class="d-flex" id="wrapper">
